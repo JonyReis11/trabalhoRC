@@ -1,0 +1,124 @@
+<style> 
+    body { 
+        font-family: Arial, sans-serif; background-color: #f4f4f4; text-align: center; } 
+        nav a { margin: 0 15px; text-decoration: none; color: #333; } 
+        header, footer { background-color: #282828; color: white; padding: 10px; } 
+        .container { text-align: left; margin: 20px auto; max-width: 800px; } 
+        h1 { color: #2E8B57; } .highlight { color: #FFA500; } 
+        img { width: 100px; height: auto; } </style>
+        </head> 
+        <body> 
+        <header>
+        <h1>FOOTBALL4ALL</h1>  
+        <nav> 
+
+<div style="background-color: #333; padding: 10px; color: #fff; text-align: center;">
+    <a href="file:///C:/Users/jonyv/Downloads/projeto%20final-RC/Projeto%20Final-%20RC-Jo%C3%A3o%20Reis.html" style="color: #fff; text-decoration: none;">Início</a> 
+    <a href="file:///C:/Users/jonyv/Downloads/projeto%20final-RC/agenda%20de%20jogos.html" style="color: #fff; margin-right: 20px; text-decoration: none;">Agenda</a>
+    <a href="file:///C:/Users/jonyv/Downloads/projeto%20final-RC/Evento%20de%20futebol.html" style="color: #fff; margin-right: 20px; text-decoration: none;">Evento</a>
+    <a href="file:///C:/Users/jonyv/Downloads/projeto%20final-RC/Formul%C3%A1rio.html" style="color: #000; text-decoration: none;">Formulário</a>
+    <a href="file:///C:/Users/jonyv/Downloads/projeto%20final-RC/Contactos%20e%20localiza%C3%A7%C3%A3o.html" style="color: #fff; text-decoration: none;">Contactos/localização</a>
+  </div>
+
+</nav> 
+</header> 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Simples</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        form {
+            max-width: 500px;
+            margin: auto;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input, textarea, select, button {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="https://example.com/submit" method="post">
+        <!-- Campo de texto -->
+        <div class="form-group">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
+        </div>
+
+        <!-- Campo de e-mail -->
+        <div class="form-group">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+        </div>
+
+        <!-- Campo de seleção -->
+        <div class="form-group">
+            <label for="gender">Gênero:</label>
+            <select id="gender" name="gender" required>
+                <option value="">Selecione</option>
+                <option value="male">Masculino</option>
+                <option value="female">Feminino</option>
+                <option value="other">Outro</option>
+            </select>
+        </div>
+
+        <!-- Caixa de seleção -->
+        <div class="form-group">
+            <label>Preferências:</label>
+            <input type="checkbox" id="news" name="preferences" value="news">
+            <label for="news">Quero receber novidades</label><br>
+            <input type="checkbox" id="offers" name="preferences" value="offers">
+            <label for="offers">Quero receber promoções</label>
+        </div>
+
+        <!-- Botão de opção -->
+        <div class="form-group">
+            <label>Você está satisfeito com o serviço?</label>
+            <input type="radio" id="yes" name="satisfaction" value="yes">
+            <label for="yes">Sim</label><br>
+            <input type="radio" id="no" name="satisfaction" value="no">
+            <label for="no">Não</label>
+        </div>
+
+        <!-- Área de texto -->
+        <div class="form-group">
+            <label for="feedback">Comentários:</label>
+            <textarea id="feedback" name="feedback" rows="4" placeholder="Escreva aqui seus comentários..."></textarea>
+        </div>
+
+        <!-- Botão de envio -->
+        <div class="form-group">
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+</body>
+</html>
+
